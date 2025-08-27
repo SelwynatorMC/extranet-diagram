@@ -160,7 +160,7 @@ export default function Diagram() {
 
           {/* CDC site */}
           <SiteLabel x={SITES.CDC.ox} y={SITES.CDC.oy - 30} text="CDC" />
-          <DeviceBox id="C_CPE1" label="PSBA CPE-1" subtitle="CDC" x={SITES.CDC.ox + 0}   y={SITES.CDC.oy + 0}   hover={hover} setHover={setHover} selected={selected} setSelected={setSelected} tier="cpe" />
+          <DeviceBox id="C_CPE1" label="PSBA CPE-1 test" subtitle="CDC" x={SITES.CDC.ox + 0}   y={SITES.CDC.oy + 0}   hover={hover} setHover={setHover} selected={selected} setSelected={setSelected} tier="cpe" />
           <DeviceBox id="C_CPE2" label="PSBA CPE-2" subtitle="CDC" x={SITES.CDC.ox + 260} y={SITES.CDC.oy + 0}   hover={hover} setHover={setHover} selected={selected} setSelected={setSelected} tier="cpe" />
           <DeviceBox id="C_WAN1" label="DHCW WAN-1" subtitle="CDC" x={SITES.CDC.ox + 0}   y={SITES.CDC.oy + 170} hover={hover} setHover={setHover} selected={selected} setSelected={setSelected} tier="wan" />
           <DeviceBox id="C_WAN2" label="DHCW WAN-2" subtitle="CDC" x={SITES.CDC.ox + 260} y={SITES.CDC.oy + 170} hover={hover} setHover={setHover} selected={selected} setSelected={setSelected} tier="wan" />
