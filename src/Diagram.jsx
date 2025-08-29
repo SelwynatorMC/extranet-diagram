@@ -11,7 +11,7 @@ const DEVICE_INFO = {
   // NDC
   N_CPE1: { label: 'CPE-1', subtitle: 'NDC', hover: 'Cisco Nexus 9000\nIP: 192.168.1.1' },
   N_CPE2: { label: 'CPE-2', subtitle: 'NDC', hover: 'Cisco Nexus 9000\nIP: 192.168.1.2' },
-  N_WAN1: { label: 'WAN-1', subtitle: 'NDC', hover: 'DHCW WAN Router\nIP: 10.0.0.1' },
+  N_WAN1: { label: 'WAN-1', subtitle: 'NDC', hover: 'DHCW WAN Router\nGIG01NSWWAN001\nN9336C-FX\n1U 36 x 40/100 Gbps QSFP28 ports 2 X 750W PSU\nMgmt – 192.168.7.19/24' },
   N_WAN2: { label: 'WAN-2', subtitle: 'NDC', hover: 'DHCW WAN Router\nIP: 10.0.0.2' },
   N_FW:   { label: 'Edge FW Cluster', subtitle: 'NDC', hover: 'Check Point Cluster\nVIP: 172.16.0.1' },
 
